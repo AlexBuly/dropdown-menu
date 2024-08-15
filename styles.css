@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+.navbar button {
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.navbar p {
+    padding-left: 1em;
+}
+
+.drop, .drop2 {
+    display: grid;
+    gap: 1em;
+    justify-content: center;
+    list-style-type: none;
+    background-color: gray;
+}
+
+.toggle {
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(209, 209, 209);
+}
+
